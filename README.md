@@ -131,8 +131,10 @@ sitemap and canonical URLs follow.
   mobile nav, reduced-motion support.
 - Deployed: https://sankalp-portfolio-eta.vercel.app (Git integration on —
   pushes to main auto-deploy).
-- Pending (needs the owner): real email, LinkedIn URL, project live URLs,
-  optional screenshots, public NOVA repo.
+- Live project previews wired: EMBER, NOVA and CAMPUSHUB render as real
+  sandboxed iframes from their production deployments.
+- Pending (needs the owner): real email, LinkedIn URL, optional screenshots,
+  public NOVA repo.
 
 ---
 

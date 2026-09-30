@@ -7,10 +7,10 @@ import type { Project } from "@/types";
  * To add Project 04: append an entry here. The showcase auto-numbers and
  * picks its layout from `slug` (see components/projects/index.ts).
  *
- * IMPORTANT: githubUrl / liveUrl / androidUrl are INTENTIONALLY empty —
- * no invented URLs. Drop the real links in below and the browser-frame
- * live previews render automatically. Same for previewImage: put a real
- * screenshot at public/projects/<slug>.png and reference it.
+ * All liveUrl values are verified reachable and frame-friendly (no
+ * X-Frame-Options / frame-ancestors), so the browser-frame previews render
+ * the real sites as live sandboxed iframes. previewImage stays optional:
+ * drop a screenshot at public/projects/<slug>.png to use as a fallback.
  */
 export const PROJECTS: Project[] = [
   {
@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
       "A premium site for a restaurant and café — menus, hours, reservations, all typeset like something you'd actually want to hold.",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     githubUrl: "https://github.com/SankalpPandey-56/ember-restaurant", // verified from the project's git remote
-    liveUrl: undefined, // ← add the real EMBER deployment URL if deployed
+    liveUrl: "https://ember-restaurant-one.vercel.app", // verified reachable + frame-friendly
     previewImage: undefined, // ← optional: /projects/ember.png
     featured: true,
     year: "2025",
@@ -83,7 +83,7 @@ export const PROJECTS: Project[] = [
     // PRIVATE — uncomment once public so visitors don't hit a 404:
     // githubUrl: "https://github.com/SankalpPandey-56/nova",
     githubUrl: undefined,
-    liveUrl: undefined, // ← add the real NOVA deployment URL if deployed
+    liveUrl: "https://nova-dun-one.vercel.app", // verified reachable + frame-friendly
     previewImage: undefined, // ← optional: /projects/nova.png
     featured: true,
     year: "2025",
@@ -141,7 +141,7 @@ export const PROJECTS: Project[] = [
       "A verified community platform for students — college email verification, campus-scoped feeds, events and housing — shipped to real users.",
     technologies: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Android"],
     githubUrl: "https://github.com/SankalpPandey-56/campushub", // verified from the project's git remote
-    liveUrl: undefined, // ← add the real CAMPUSHUB deployment URL if deployed
+    liveUrl: "https://campushub-fluktiyo.vercel.app", // verified reachable + frame-friendly
     androidUrl: undefined, // ← add the Play Store link when published (Android build scripts exist in the repo)
     previewImage: undefined, // ← optional: /projects/campushub.png
     featured: true,
