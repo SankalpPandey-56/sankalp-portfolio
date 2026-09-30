@@ -1,5 +1,8 @@
 # SANKALP PANDEY — Portfolio
 
+**Live: [sankalp-portfolio-eta.vercel.app](https://sankalp-portfolio-eta.vercel.app)**
+
+
 Personal portfolio of **Sankalp Pandey** — software developer and product builder.
 A designer's portfolio with an engineer's playground: minimal, editorial, and one
 signature 3D system that evolves as you move through the site.
@@ -116,8 +119,9 @@ button above, or:
 npm i -g vercel && vercel --prod
 ```
 
-Then set `SITE.url` in `data/site.ts` to the final domain and redeploy so
-SEO metadata, the sitemap and canonical URLs are correct.
+The production domain is already set in `data/site.ts`; if you add a custom
+domain later, update `SITE.url` there and redeploy so SEO metadata, the
+sitemap and canonical URLs follow.
 
 ## Status
 
@@ -125,8 +129,10 @@ SEO metadata, the sitemap and canonical URLs are correct.
   command palette (⌘K / Ctrl-K), case studies, playground, custom 404,
   easter eggs (Konami "paper mode" + the footer whisper), full SEO layer,
   mobile nav, reduced-motion support.
+- Deployed: https://sankalp-portfolio-eta.vercel.app (Git integration on —
+  pushes to main auto-deploy).
 - Pending (needs the owner): real email, LinkedIn URL, project live URLs,
-  optional screenshots, public NOVA repo, Vercel deploy + domain.
+  optional screenshots, public NOVA repo.
 
 ---
 

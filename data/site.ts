@@ -12,8 +12,8 @@ export const SITE: SiteConfig = {
   // PLACEHOLDER — replace with the real email before shipping.
   email: "hello@sankalppandey.dev",
   location: "India",
-  // PLACEHOLDER — update after the first deploy (Vercel URL or custom domain).
-  url: "https://sankalp-portfolio.vercel.app",
+  // Live production URL (Vercel). Swap in a custom domain here if you add one.
+  url: "https://sankalp-portfolio-eta.vercel.app",
   socials: [
     // Verified real handle (from the project repos' git remotes).
     { label: "GitHub", href: "https://github.com/SankalpPandey-56", external: true },
