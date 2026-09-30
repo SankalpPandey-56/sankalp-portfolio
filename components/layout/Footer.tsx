@@ -42,7 +42,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 md:flex-row md:items-center md:justify-between">
         <div className="flex items-baseline gap-3">
           <p className="font-display text-lg text-paper">Sankalp Pandey<span className="text-ember">.</span></p>
-          <p className="label">© {year ?? ""}</p>
+          <p className="label">© {year ?? ""} · {SITE.location}</p>
         </div>
 
         <nav aria-label="Footer" className="flex flex-wrap items-center gap-x-7 gap-y-2">
