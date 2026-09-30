@@ -6,6 +6,8 @@ signature 3D system that evolves as you move through the site.
 
 > Built, shipped, still standing.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSankalpPandey-56%2Fsankalp-portfolio)
+
 ---
 
 ## Design philosophy
@@ -107,11 +109,11 @@ Everything personal is centralized in `data/`:
 
 ## Deployment
 
-Deploy to Vercel with zero config (Next.js is auto-detected):
+Zero config on Vercel — Next.js is auto-detected. Either click the Deploy
+button above, or:
 
 ```bash
-npx vercel          # preview
-npx vercel --prod   # production
+npm i -g vercel && vercel --prod
 ```
 
 Then set `SITE.url` in `data/site.ts` to the final domain and redeploy so
