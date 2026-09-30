@@ -111,6 +111,7 @@ export function CommandPalette() {
       { id: "work", label: "Work", hint: "Selected projects", group: "Navigate", run: goSection("#work") },
       { id: "about", label: "About", hint: "Who I am", group: "Navigate", run: goSection("#about") },
       { id: "playground", label: "Playground", hint: "Experiments", group: "Navigate", run: goSection("#playground") },
+      { id: "resume", label: "Resume", hint: "View / download PDF", group: "Navigate", run: goPage("/resume") },
       { id: "contact", label: "Contact", hint: "Say hello", group: "Navigate", run: goSection("#contact") },
       ...PROJECTS.map((p) => ({
         id: `project-${p.slug}`,

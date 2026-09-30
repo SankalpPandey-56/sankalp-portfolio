@@ -1,0 +1,47 @@
+/* Print rules for /resume — activated by window.print() and Ctrl/Cmd+P.
+   A4 + Letter friendly: ~12mm side margins, compact vertical rhythm. */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 12mm 12mm 10mm;
+  }
+
+  html,
+  body {
+    background: #fff !important;
+  }
+
+  /* The site chrome (fixed nav, grain overlay, lattice canvas, footer)
+     must never appear on the printed sheet. */
+  header,
+  footer,
+  .grain::before,
+  [data-testid="lattice-canvas"],
+  .resume-page > div:first-child {
+    display: none !important;
+  }
+
+  .resume-page {
+    background: #fff !important;
+    padding: 0 !important;
+    min-height: auto !important;
+  }
+
+  .resume-doc {
+    color: #000 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Keep each project block intact across page breaks (defensive — the
+     document is designed to fit one page). */
+  .resume-doc section {
+    break-inside: avoid;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: #000 !important;
+  }
+}
