@@ -280,3 +280,4 @@ export const PROJECTS: Project[] = [
 export function getProjectBySlug(slug: string): Project | undefined {
   return PROJECTS.find((p) => p.slug === slug);
 }
+

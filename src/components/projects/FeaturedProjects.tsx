@@ -28,3 +28,4 @@ export function FeaturedProjects() {
     </section>
   );
 }
+

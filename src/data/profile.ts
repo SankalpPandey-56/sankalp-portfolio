@@ -23,3 +23,4 @@ export const PROFILE: ProfileData = {
     email: "mailto:sankalppandey.56@gmail.com",
   },
 };
+
