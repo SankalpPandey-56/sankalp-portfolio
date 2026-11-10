@@ -8,6 +8,7 @@ import { Footer } from "@/components/footer/Footer";
 import { CustomCursor } from "@/components/ui/CustomCursor";
 import { SmoothScroll } from "@/components/ui/SmoothScroll";
 import { NoiseOverlay } from "@/components/ui/NoiseOverlay";
+import { KeyboardShortcuts } from "@/components/ui/KeyboardShortcuts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -72,6 +73,9 @@ export default function RootLayout({
     >
       <body className="min-h-screen flex flex-col bg-[var(--background)] text-[var(--foreground)] selection:bg-neutral-900 selection:text-white dark:selection:bg-white dark:selection:text-neutral-900">
         <ThemeProvider>
+          {/* Global Keyboard Shortcuts (Press T for symbiote metamorphosis) */}
+          <KeyboardShortcuts />
+
           {/* Signature Feature: Venom-Inspired Liquid Symbiote Transition Engine */}
           <SymbioteTransition />
 
