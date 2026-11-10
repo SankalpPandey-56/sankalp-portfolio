@@ -2,7 +2,7 @@
 
 import React from "react";
 import { HeroCanvas } from "./HeroCanvas";
-import { ArrowDown, Mail } from "lucide-react";
+import { ArrowDown, Mail, FileDown } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/ui/Icons";
 
 export function Hero() {
@@ -61,6 +61,15 @@ export function Hero() {
           className="px-6 py-3.5 rounded-full border border-neutral-300 dark:border-neutral-800 bg-neutral-100/50 dark:bg-neutral-900/50 text-neutral-800 dark:text-neutral-200 font-mono text-xs tracking-wider uppercase hover:border-neutral-950 dark:hover:border-white transition-all duration-200"
         >
           Open-Source PRs (26)
+        </a>
+
+        <a
+          href="/resume.pdf"
+          download="Sankalp_Pandey_Resume.pdf"
+          className="px-5 py-3.5 rounded-full border border-neutral-300 dark:border-neutral-800 bg-neutral-100/50 dark:bg-neutral-900/50 text-neutral-800 dark:text-neutral-200 font-mono text-xs tracking-wider uppercase hover:border-neutral-950 dark:hover:border-white transition-all duration-200 inline-flex items-center gap-1.5"
+        >
+          <FileDown className="w-3.5 h-3.5" />
+          <span>Resume (PDF)</span>
         </a>
 
         <div className="flex items-center gap-2 pl-2">

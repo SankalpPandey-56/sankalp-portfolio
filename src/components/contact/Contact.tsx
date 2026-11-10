@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Link from "next/link";
 import { TerminalEasterEgg } from "./TerminalEasterEgg";
 import { Mail, ArrowUpRight, Copy, Check, FileDown, Send } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/ui/Icons";
@@ -148,13 +147,14 @@ export function Contact() {
               <span>LinkedIn</span>
               <ArrowUpRight className="w-3 h-3" />
             </a>
-            <Link
-              href="/resume"
+            <a
+              href="/resume.pdf"
+              download="Sankalp_Pandey_Resume.pdf"
               className="inline-flex items-center gap-1.5 text-neutral-600 dark:text-neutral-400 hover:text-neutral-950 dark:hover:text-white ml-auto"
             >
               <FileDown className="w-4 h-4" />
-              <span>Download Resume</span>
-            </Link>
+              <span>Download Resume (PDF)</span>
+            </a>
           </div>
         </div>
 
