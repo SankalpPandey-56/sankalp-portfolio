@@ -1,9 +1,8 @@
 "use client";
 
 import React from "react";
-import Link from "next/link";
 import { HeroCanvas } from "./HeroCanvas";
-import { ArrowDown, ArrowUpRight, Mail, Sparkles, Terminal } from "lucide-react";
+import { ArrowDown, Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/ui/Icons";
 
 export function Hero() {

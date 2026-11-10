@@ -2,7 +2,7 @@
 
 import React from "react";
 import { OpenSourceContribution } from "@/types";
-import { GitPullRequest, GitMerge, ExternalLink, Calendar, Tag } from "lucide-react";
+import { GitPullRequest, GitMerge, ExternalLink } from "lucide-react";
 
 export function ContributionCard({ item }: { item: OpenSourceContribution }) {
   const isMerged = item.status === "merged";

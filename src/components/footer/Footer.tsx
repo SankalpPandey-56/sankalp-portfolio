@@ -2,7 +2,7 @@
 
 import React from "react";
 import confetti from "canvas-confetti";
-import { ArrowUp, Mail, Heart, Sparkles } from "lucide-react";
+import { ArrowUp } from "lucide-react";
 
 export function Footer() {
   const scrollToTop = () => {

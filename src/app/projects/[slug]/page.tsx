@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { PROJECTS, getProjectBySlug } from "@/data/projects";
-import { ArrowLeft, ArrowUpRight, ExternalLink, CheckCircle2, AlertTriangle, Lightbulb, Code2 } from "lucide-react";
+import { ArrowLeft, ArrowUpRight, ExternalLink, AlertTriangle, Lightbulb, Code2 } from "lucide-react";
 import { GithubIcon } from "@/components/ui/Icons";
 import type { Metadata } from "next";
 

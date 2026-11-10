@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import { useTheme } from "@/components/theme/ThemeProvider";
-import { Terminal, Send, Check, CornerDownLeft } from "lucide-react";
+import { CornerDownLeft } from "lucide-react";
 
 interface TerminalLine {
   id: string;

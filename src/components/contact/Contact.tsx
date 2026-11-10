@@ -8,7 +8,6 @@ import { GithubIcon, LinkedinIcon } from "@/components/ui/Icons";
 
 export function Contact() {
   const [copied, setCopied] = useState(false);
-  const [formSent, setFormSent] = useState(false);
   const [formState, setFormState] = useState({ name: "", email: "", message: "" });
 
   const email = "sankalppandey.56@gmail.com";
@@ -27,7 +26,6 @@ export function Contact() {
       `Name: ${formState.name}\nEmail: ${formState.email}\n\nMessage:\n${formState.message}`
     );
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;
-    setFormSent(true);
   };
 
   return (

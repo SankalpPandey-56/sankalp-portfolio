@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { CONTRIBUTIONS } from "@/data/contributions";
 import { ContributionCard } from "./ContributionCard";
-import { GitPullRequest, GitMerge, CheckCheck } from "lucide-react";
+import { GitPullRequest, GitMerge } from "lucide-react";
 import { GithubIcon } from "@/components/ui/Icons";
 
 export function Contributions() {

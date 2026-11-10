@@ -1,6 +1,6 @@
 import React from "react";
 import { TIMELINE } from "@/data/experience";
-import { Trophy, Bot, Calendar, Sparkles, Award } from "lucide-react";
+import { Trophy, Bot } from "lucide-react";
 
 export function RoboticsTimeline() {
   return (

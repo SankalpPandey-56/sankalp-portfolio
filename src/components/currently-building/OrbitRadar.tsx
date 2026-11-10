@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Radio, Lock, ShieldCheck, Sparkles } from "lucide-react";
+import { Radio, Lock, ShieldCheck } from "lucide-react";
 
 export function OrbitRadar() {
   return (

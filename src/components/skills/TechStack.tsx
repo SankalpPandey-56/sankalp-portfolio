@@ -1,6 +1,6 @@
 import React from "react";
 import { SKILL_CATEGORIES } from "@/data/skills";
-import { CheckCircle2, Terminal, BookOpen, Layers } from "lucide-react";
+import { CheckCircle2, BookOpen, Layers } from "lucide-react";
 
 export function TechStack() {
   return (

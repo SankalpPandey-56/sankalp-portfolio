@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
-import { Menu, X, ArrowUpRight, Terminal } from "lucide-react";
+import { Menu, X, ArrowUpRight } from "lucide-react";
 
 const NAV_ITEMS = [
   { label: "About", href: "#about" },

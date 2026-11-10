@@ -3,7 +3,7 @@
 import React, { useRef, useState } from "react";
 import Link from "next/link";
 import { Project } from "@/types";
-import { ArrowUpRight, ExternalLink, Code2, Layers, Sparkles } from "lucide-react";
+import { ArrowUpRight, ExternalLink, Code2 } from "lucide-react";
 import { GithubIcon } from "@/components/ui/Icons";
 
 export function ProjectCard({ project }: { project: Project }) {

@@ -21,27 +21,24 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [mounted, setMounted] = useState(false);
 
-  // Initialize theme from localStorage or system preference
   useEffect(() => {
     try {
       const stored = localStorage.getItem("sp_theme") as Theme | null;
       if (stored === "light" || stored === "dark") {
-        setTheme(stored);
         if (stored === "dark") {
           document.documentElement.classList.add("dark");
         } else {
           document.documentElement.classList.remove("dark");
         }
       } else {
-        // Default to dark mode for elite developer aesthetic
-        setTheme("dark");
         document.documentElement.classList.add("dark");
       }
     } catch {
-      setTheme("dark");
       document.documentElement.classList.add("dark");
     }
-    setMounted(true);
+    // Set mounted in a macrotask/microtask or after paint
+    const timer = setTimeout(() => setMounted(true), 0);
+    return () => clearTimeout(timer);
   }, []);
 
   const toggleTheme = useCallback(
@@ -102,7 +99,6 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     };
   }, []);
 
-  // Avoid layout shift before mount
   return (
     <ThemeContext.Provider value={{ theme, isTransitioning, toggleTheme }}>
       <div style={{ visibility: mounted ? "visible" : "hidden" }}>

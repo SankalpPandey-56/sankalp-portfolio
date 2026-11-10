@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { ArrowLeft, FileDown, CheckCircle2, GraduationCap, Briefcase, Award, ExternalLink, Mail, Phone, MapPin } from "lucide-react";
+import { ArrowLeft, FileDown, Mail, MapPin } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/ui/Icons";
 import type { Metadata } from "next";
 
