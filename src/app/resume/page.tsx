@@ -129,9 +129,9 @@ export default function ResumePage() {
             <div className="space-y-2">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between">
                 <h3 className="font-mono font-bold text-sm text-neutral-950 dark:text-white">
-                  Beyond 2D · Computer Vision & 3D Spatial Engine
+                  Beyond 2D · Architectural Vision Engine
                 </h3>
-                <span className="font-mono text-xs text-neutral-500">FastAPI · OpenCV · Gemini AI · Three.js</span>
+                <span className="font-mono text-xs text-neutral-500">Python · FastAPI · OpenCV · Gemini AI</span>
               </div>
               <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-mono">
                 <li>Automated deterministic conversion of 2D floor plans into watertight 3D models in &lt;3s.</li>
@@ -143,13 +143,13 @@ export default function ResumePage() {
             <div className="space-y-2">
               <div className="flex flex-col sm:flex-row sm:items-center justify-between">
                 <h3 className="font-mono font-bold text-sm text-neutral-950 dark:text-white">
-                  CampusHub · Verified Student Community Platform
+                  Orbit · Upcoming Hackathon Project (Construct 2.0)
                 </h3>
-                <span className="font-mono text-xs text-neutral-500">Next.js · TypeScript · PostgreSQL · Prisma</span>
+                <span className="font-mono text-xs text-neutral-500">Python · FastAPI · React · Tailwind CSS</span>
               </div>
               <ul className="list-disc list-inside space-y-1 text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-mono">
-                <li>Architected 24-model relational database schema in Prisma with role-based moderation.</li>
-                <li>Shipped web PWA and packaged native Android APK via Capacitor.</li>
+                <li>Currently under active development for the Construct 2.0 hackathon competition.</li>
+                <li>Engineered for high-concurrency event handling, modular API routes, and responsive UI.</li>
               </ul>
             </div>
           </div>
@@ -181,15 +181,15 @@ export default function ResumePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 font-mono text-xs">
             <div>
               <span className="font-bold text-neutral-950 dark:text-white block mb-1">Languages:</span>
-              <span className="text-neutral-600 dark:text-neutral-400">Python, TypeScript, C, C++, JavaScript, Rust (exploring)</span>
+              <span className="text-neutral-600 dark:text-neutral-400">Python, C, C++, JavaScript, Rust (exploring)</span>
             </div>
             <div>
-              <span className="font-bold text-neutral-950 dark:text-white block mb-1">Frameworks & Web:</span>
-              <span className="text-neutral-600 dark:text-neutral-400">React, Next.js, FastAPI, Django, Tailwind CSS, Three.js</span>
+              <span className="font-bold text-neutral-950 dark:text-white block mb-1">Web & Frontend:</span>
+              <span className="text-neutral-600 dark:text-neutral-400">React, HTML5, CSS3, Tailwind CSS</span>
             </div>
             <div>
-              <span className="font-bold text-neutral-950 dark:text-white block mb-1">Databases & Cloud:</span>
-              <span className="text-neutral-600 dark:text-neutral-400">PostgreSQL, Prisma, Supabase, Docker, Vercel, Git</span>
+              <span className="font-bold text-neutral-950 dark:text-white block mb-1">Backend & Databases:</span>
+              <span className="text-neutral-600 dark:text-neutral-400">FastAPI, Django, PostgreSQL, Supabase, Docker, Vercel, Git</span>
             </div>
             <div>
               <span className="font-bold text-neutral-950 dark:text-white block mb-1">Hardware & Robotics:</span>

@@ -5,7 +5,6 @@ import { ThemeProvider } from "@/components/theme/ThemeProvider";
 import { SymbioteTransition } from "@/components/theme/SymbioteTransition";
 import { Navbar } from "@/components/nav/Navbar";
 import { Footer } from "@/components/footer/Footer";
-import { CustomCursor } from "@/components/ui/CustomCursor";
 import { SmoothScroll } from "@/components/ui/SmoothScroll";
 import { NoiseOverlay } from "@/components/ui/NoiseOverlay";
 import { KeyboardShortcuts } from "@/components/ui/KeyboardShortcuts";
@@ -33,7 +32,7 @@ export const metadata: Metadata = {
     "Computer Vision",
     "FastAPI",
     "Next.js",
-    "Three.js",
+    "React",
     "Supabase",
     "Kestra",
     "Pune",
@@ -78,9 +77,6 @@ export default function RootLayout({
 
           {/* Signature Feature: Venom-Inspired Liquid Symbiote Transition Engine */}
           <SymbioteTransition />
-
-          {/* Precision Desktop Follower Cursor */}
-          <CustomCursor />
 
           {/* Subtle Organic Film Grain Overlay */}
           <NoiseOverlay />

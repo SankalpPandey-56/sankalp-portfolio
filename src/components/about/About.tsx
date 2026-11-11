@@ -32,7 +32,7 @@ export function About() {
             When you build hardware, bugs don’t just trigger stack traces—they strip gears and burn out voltage regulators. That discipline taught me to write software that respects state, handles edge cases deterministically, and never relies on superficial assumptions.
           </p>
           <p>
-            Today, I channel that mindset into software engineering: developing <span className="font-semibold text-neutral-950 dark:text-white">Beyond 2D</span> (transforming 2D architectural blueprints into watertight 3D models with OpenCV and Gemini Vision AI), contributing to industry-standard open-source repositories like <span className="font-semibold text-neutral-950 dark:text-white">Supabase</span> and <span className="font-semibold text-neutral-950 dark:text-white">Kestra</span>, and engineering verified student infrastructure with <span className="font-semibold text-neutral-950 dark:text-white">CampusHub</span>.
+            Today, I channel that mindset into software engineering: developing <span className="font-semibold text-neutral-950 dark:text-white">Beyond 2D</span> (transforming 2D architectural blueprints into watertight 3D models with OpenCV and Gemini Vision AI), contributing to industry-standard open-source repositories like <span className="font-semibold text-neutral-950 dark:text-white">Supabase</span> and <span className="font-semibold text-neutral-950 dark:text-white">Kestra</span>, and currently building <span className="font-semibold text-neutral-950 dark:text-white">Project Orbit</span> for the Construct 2.0 hackathon.
           </p>
 
           {/* Core Foundations Grid */}

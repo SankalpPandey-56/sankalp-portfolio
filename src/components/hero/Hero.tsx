@@ -113,7 +113,7 @@ export function Hero() {
         </div>
         <div>
           <span className="block text-neutral-950 dark:text-white font-bold text-sm">Beyond 2D</span>
-          <span>CV & 3D Spatial Engine</span>
+          <span>Vision & Architecture</span>
         </div>
         <div>
           <span className="block text-neutral-950 dark:text-white font-bold text-sm">NST Pune</span>

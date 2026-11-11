@@ -10,13 +10,13 @@ export function FeaturedProjects() {
       <div className="space-y-4 mb-16">
         <div className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-neutral-500">
           <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
-          03 / Selected Works
+          03 / Projects
         </div>
         <h2 className="text-3xl sm:text-5xl font-black uppercase tracking-tight text-neutral-950 dark:text-white">
-          Shipped Systems & Prototypes
+          Featured Projects
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 max-w-2xl text-base sm:text-lg">
-          Deterministic computer vision engines, multi-tenant productivity SaaS, and verified student networks. Each project is accompanied by an in-depth architectural case study.
+          Deterministic architectural computer vision and active hackathon systems engineering.
         </p>
       </div>
 
@@ -28,4 +28,3 @@ export function FeaturedProjects() {
     </section>
   );
 }
-
