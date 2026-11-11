@@ -12,7 +12,7 @@ export const CONTRIBUTIONS: OpenSourceContribution[] = [
       "Fixed a bug where broadcast messages containing an `ids` key crashed the Realtime client's filter transformation.",
     status: "open",
     date: "2025-08-20",
-    tags: ["Realtime", "TypeScript", "WebSocket"],
+    tags: ["Realtime", "JavaScript", "WebSocket"],
   },
   {
     id: "kestra-4870",
