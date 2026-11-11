@@ -26,10 +26,12 @@ export function TerminalEasterEgg() {
     },
   ]);
 
-  const bottomRef = useRef<HTMLDivElement | null>(null);
+  const scrollAreaRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+    if (scrollAreaRef.current) {
+      scrollAreaRef.current.scrollTop = scrollAreaRef.current.scrollHeight;
+    }
   }, [history]);
 
   const handleCommand = (e: React.FormEvent) => {
@@ -63,7 +65,7 @@ export function TerminalEasterEgg() {
         newHistory.push({
           id: Math.random().toString(),
           type: "output",
-          text: "[1] Beyond 2D (CV & 3D Spatial Engine) | [2] CampusHub (Verified Student Platform) | [3] Nova (Contextual AI Workspace) | [4] Ember (Editorial Print Restaurant) | [5] Orbit (Construct 2.0)",
+          text: "[1] Beyond 2D (Deterministic Vision Engine) | [2] Orbit (Upcoming Hackathon Project @ Construct 2.0)",
         });
         break;
 
@@ -71,7 +73,7 @@ export function TerminalEasterEgg() {
         newHistory.push({
           id: Math.random().toString(),
           type: "output",
-          text: "Python (FastAPI, OpenCV) · TypeScript (Next.js, React) · PostgreSQL (Prisma) · Three.js · ROS · Arduino · Docker",
+          text: "Python (FastAPI, OpenCV) · React · Tailwind CSS · PostgreSQL · ROS · Arduino · Linux · Git",
         });
         break;
 
@@ -144,7 +146,7 @@ export function TerminalEasterEgg() {
       </div>
 
       {/* Terminal Scroll Area */}
-      <div className="flex-1 overflow-y-auto space-y-2 pr-2 scrollbar-thin">
+      <div ref={scrollAreaRef} className="flex-1 overflow-y-auto space-y-2 pr-2 scrollbar-thin">
         {history.map((line) => (
           <div
             key={line.id}
@@ -159,7 +161,6 @@ export function TerminalEasterEgg() {
             {line.text}
           </div>
         ))}
-        <div ref={bottomRef} />
       </div>
 
       {/* Command Input */}
