@@ -42,17 +42,17 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://sankalppandey.vercel.app",
+    url: "https://sankalp-portfolio-2026.vercel.app",
     title: "Sankalp Pandey · Developer | Robotics Enthusiast | Open-Source Contributor",
     description:
-      "Deterministic computer vision pipelines, verified student platforms, 3-year robotics tenure, and 26 audited open-source contributions.",
+      "Deterministic computer vision pipelines, physical robotics, and verified open-source contributions.",
     siteName: "Sankalp Pandey Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Sankalp Pandey · Developer | Robotics Enthusiast | Open-Source Contributor",
     description:
-      "Deterministic computer vision pipelines, verified student platforms, 3-year robotics tenure, and 26 audited open-source contributions.",
+      "Deterministic computer vision pipelines, physical robotics, and verified open-source contributions.",
   },
   robots: {
     index: true,

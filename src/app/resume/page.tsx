@@ -97,7 +97,7 @@ export default function ResumePage() {
             Executive Summary
           </h2>
           <p className="text-neutral-700 dark:text-neutral-300 text-sm sm:text-base leading-relaxed">
-            First-year B.Tech CSE (AI/ML) scholar with a grounded background in physical robotics and full-stack software development. Proven track record across 4+ shipped web systems, including the Beyond 2D architectural vision engine and CampusHub verified platform. Contributor to major open-source ecosystems (Supabase, Kestra) with 26 audited pull requests.
+            First-year B.Tech CSE (AI/ML) scholar with a grounded background in physical robotics and software development. Creator of the Beyond 2D architectural vision engine and active builder of Project Orbit for Construct 2.0. Contributor to major open-source ecosystems (Supabase, Kestra) with 26 audited pull requests.
           </p>
         </section>
 

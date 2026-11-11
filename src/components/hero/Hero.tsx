@@ -42,7 +42,7 @@ export function Hero() {
         </p>
 
         <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl font-normal leading-relaxed pt-2">
-          Building deterministic architectural vision pipelines, high-trust student platforms, and resilient system software. Grounded by three years in competitive robotics and driven by active contributions to modern open-source ecosystems.
+          Building deterministic architectural vision engines, physical robotics, and resilient system software. Grounded by three years in competitive robotics and driven by active contributions to modern open-source ecosystems.
         </p>
       </div>
 
