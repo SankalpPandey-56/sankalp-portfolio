@@ -8,13 +8,13 @@ export function RoboticsTimeline() {
       <div className="space-y-4 mb-16">
         <div className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-neutral-500">
           <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
-          05 / Hardware & Arenas
+          04 / Hardware & Arenas
         </div>
         <h2 className="text-3xl sm:text-5xl font-black uppercase tracking-tight text-neutral-950 dark:text-white">
           Robotics Tenure & Hackathons
         </h2>
         <p className="text-neutral-600 dark:text-neutral-400 max-w-2xl text-base sm:text-lg">
-          Three full years of hands-on robotics competition leadership, national hackathon sprints, and open-source milestones.
+          Three full years of hands-on robotics competition leadership, autonomous builds, and national hackathon sprints.
         </p>
       </div>
 

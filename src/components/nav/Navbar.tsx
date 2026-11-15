@@ -9,7 +9,6 @@ const NAV_ITEMS = [
   { label: "About", href: "#about" },
   { label: "Stack", href: "#stack" },
   { label: "Projects", href: "#projects" },
-  { label: "Open Source", href: "#open-source" },
   { label: "Robotics", href: "#robotics" },
   { label: "Contact", href: "#contact" },
 ];

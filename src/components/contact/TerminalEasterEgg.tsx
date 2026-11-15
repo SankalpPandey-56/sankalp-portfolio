@@ -49,7 +49,7 @@ export function TerminalEasterEgg() {
         newHistory.push({
           id: Math.random().toString(),
           type: "output",
-          text: "Commands: bio | projects | stack | prs | robotics | symbiote | contact | clear",
+          text: "Commands: bio | projects | stack | robotics | symbiote | contact | clear",
         });
         break;
 
@@ -57,7 +57,7 @@ export function TerminalEasterEgg() {
         newHistory.push({
           id: Math.random().toString(),
           type: "output",
-          text: "Sankalp Pandey: First-Year B.Tech CSE (AI/ML) at Newton School of Tech, Pune. 3 years in competitive robotics, builder of Beyond 2D, active open-source contributor.",
+          text: "Sankalp Pandey: First-Year B.Tech CSE (AI/ML) at Newton School of Tech, Pune. 3 years in competitive robotics, builder of Beyond 2D and Project Orbit.",
         });
         break;
 
@@ -74,14 +74,6 @@ export function TerminalEasterEgg() {
           id: Math.random().toString(),
           type: "output",
           text: "Python (FastAPI, OpenCV) · React · Tailwind CSS · PostgreSQL · ROS · Arduino · Linux · Git",
-        });
-        break;
-
-      case "prs":
-        newHistory.push({
-          id: Math.random().toString(),
-          type: "output",
-          text: "Audited 26 PRs across Supabase, Kestra, Squidbrake, Termlens, Avenx-JS, MCP Servers, Lidtap, and Activist.",
         });
         break;
 

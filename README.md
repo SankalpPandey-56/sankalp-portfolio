@@ -5,14 +5,14 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg?style=for-the-badge)](LICENSE)
 
-> **Developer | Robotics Enthusiast | Open-Source Contributor**  
+> **Developer | Robotics Enthusiast**  
 > First-year B.Tech CSE (AI/ML) at Newton School of Technology, Pune.
 
 ---
 
 ## 💡 Overview
 
-An experimental creative developer portfolio fusing software engineering, a 3-year competitive robotics legacy, and verified open-source contributions. 
+An experimental creative developer portfolio fusing software engineering and a 3-year competitive robotics legacy. 
 
 Built with **Next.js 16 (App Router)**, **React 19**, and **Tailwind CSS v4**.
 

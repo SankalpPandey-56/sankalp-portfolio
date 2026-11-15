@@ -37,12 +37,11 @@ export function Hero() {
         </h1>
 
         <p className="text-lg sm:text-xl md:text-2xl font-mono text-neutral-700 dark:text-neutral-300 pt-2 tracking-tight">
-          Developer <span className="text-neutral-400">|</span> Robotics Enthusiast{" "}
-          <span className="text-neutral-400">|</span> Open-Source Contributor
+          Developer <span className="text-neutral-400">|</span> Robotics Enthusiast
         </p>
 
         <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl font-normal leading-relaxed pt-2">
-          Building deterministic architectural vision engines, physical robotics, and resilient system software. Grounded by three years in competitive robotics and driven by active contributions to modern open-source ecosystems.
+          Building deterministic architectural vision engines, physical robotics, and resilient system software. Grounded by three years in competitive robotics and hands-on systems development.
         </p>
       </div>
 
@@ -54,13 +53,6 @@ export function Hero() {
         >
           <span>Explore Projects</span>
           <ArrowDown className="w-3.5 h-3.5" />
-        </a>
-
-        <a
-          href="#open-source"
-          className="px-6 py-3.5 rounded-full border border-neutral-300 dark:border-neutral-800 bg-neutral-100/50 dark:bg-neutral-900/50 text-neutral-800 dark:text-neutral-200 font-mono text-xs tracking-wider uppercase hover:border-neutral-950 dark:hover:border-white transition-all duration-200"
-        >
-          Open-Source PRs (26)
         </a>
 
         <a
@@ -108,8 +100,8 @@ export function Hero() {
           <span>Competitive Robotics</span>
         </div>
         <div>
-          <span className="block text-neutral-950 dark:text-white font-bold text-sm">26 Pull Requests</span>
-          <span>Supabase, Kestra, OSS</span>
+          <span className="block text-neutral-950 dark:text-white font-bold text-sm">Construct 2.0</span>
+          <span>Project Orbit Hackathon</span>
         </div>
         <div>
           <span className="block text-neutral-950 dark:text-white font-bold text-sm">Beyond 2D</span>

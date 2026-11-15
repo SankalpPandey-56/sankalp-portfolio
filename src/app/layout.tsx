@@ -20,21 +20,19 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sankalp Pandey · Developer | Robotics Enthusiast | Open-Source Contributor",
+  title: "Sankalp Pandey · Developer | Robotics Enthusiast",
   description:
-    "Personal engineering portfolio of Sankalp Pandey — First-year B.Tech CSE (AI/ML) at Newton School of Technology, Pune. Three years in competitive robotics, builder of Beyond 2D architectural vision engine, and contributor to Supabase, Kestra, and open source.",
+    "Personal engineering portfolio of Sankalp Pandey — First-year B.Tech CSE (AI/ML) at Newton School of Technology, Pune. Three years in competitive robotics, builder of Beyond 2D architectural vision engine, and developer of Project Orbit.",
   keywords: [
     "Sankalp Pandey",
     "Robotics",
     "Developer",
-    "Open Source Contributor",
     "Beyond 2D",
+    "Project Orbit",
     "Computer Vision",
     "FastAPI",
     "Next.js",
     "React",
-    "Supabase",
-    "Kestra",
     "Pune",
   ],
   authors: [{ name: "Sankalp Pandey", url: "https://github.com/SankalpPandey-56" }],
@@ -43,16 +41,16 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://sankalp-portfolio-2026.vercel.app",
-    title: "Sankalp Pandey · Developer | Robotics Enthusiast | Open-Source Contributor",
+    title: "Sankalp Pandey · Developer | Robotics Enthusiast",
     description:
-      "Deterministic computer vision pipelines, physical robotics, and verified open-source contributions.",
+      "Deterministic computer vision pipelines, physical robotics, and resilient systems.",
     siteName: "Sankalp Pandey Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sankalp Pandey · Developer | Robotics Enthusiast | Open-Source Contributor",
+    title: "Sankalp Pandey · Developer | Robotics Enthusiast",
     description:
-      "Deterministic computer vision pipelines, physical robotics, and verified open-source contributions.",
+      "Deterministic computer vision pipelines, physical robotics, and resilient systems.",
   },
   robots: {
     index: true,

@@ -35,7 +35,7 @@ export function Contact() {
           <div className="space-y-4">
             <div className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-neutral-500">
               <span className="w-1.5 h-1.5 rounded-full bg-neutral-900 dark:bg-white" />
-              06 / Transmission
+              05 / Transmission
             </div>
             <h2 className="text-4xl sm:text-6xl font-black uppercase tracking-tight text-neutral-950 dark:text-white leading-tight">
               Let’s Build
@@ -43,7 +43,7 @@ export function Contact() {
               Something Real
             </h2>
             <p className="text-neutral-600 dark:text-neutral-400 text-base leading-relaxed">
-              Open to ambitious engineering collaborations, robotics challenges, open-source initiatives, and summer internship opportunities.
+              Open to ambitious engineering collaborations, robotics challenges, and summer internship opportunities.
             </p>
           </div>
 
